@@ -18,9 +18,3 @@
 - 모든 처리는 **사용자 브라우저 안에서만** 이루어지며, 데이터는 서버로 전송되거나 저장되지 않습니다.
 - 이 저장소의 `index.html`에는 어떤 학습 데이터도 들어있지 않습니다(빈 도구).
 - 내보낸 결과 파일(`*_분석결과.html`)에는 필터링된 실제 데이터가 들어가므로 공개 저장소에 올리지 마세요(`.gitignore`로 제외됨).
-
-## 배포 (GitHub Pages)
-
-같은 폴더의 `deploy.bat`을 실행하면 `https://github.com/illusionpark/myproject` 로 올라갑니다. 첫 1회만 저장소 Settings → Pages 에서 `main / (root)`로 게시하면, 이후 `deploy.bat` 실행 시 자동 반영됩니다. (무료 플랜은 공개 저장소 필요)
-
-게시 주소: `https://illusionpark.github.io/myproject/`
